@@ -167,23 +167,7 @@ git push -u origin part-3-mvc
 
 Only commit each milestone after making and testing the related change. The list is a development plan, not a substitute for real commits.
 
-## 9. Testing checklist before submission
 
-- [ ] API starts and can connect to SQL Server.
-- [ ] Existing Part 2 tests pass.
-- [ ] MVC builds in Release mode.
-- [ ] Register an Organiser and a Participant.
-- [ ] Log in as Organiser and confirm Participant pages are blocked.
-- [ ] Create, edit and delete an event.
-- [ ] Create and assign event categories.
-- [ ] Upload a banner and confirm the returned Azure URL displays on the event page.
-- [ ] Log in as Participant and enrol in an event.
-- [ ] Confirm the enrolment appears in the Organiser list and Participant's personal page.
-- [ ] Record a result and confirm it appears for the Participant.
-- [ ] Log out and confirm protected pages redirect to login.
-- [ ] Build and run the Docker container.
-- [ ] Confirm GitHub Actions completes successfully.
-- [ ] Record the application, explain the MVC/API separation, Blob Storage and Docker, and add the real unlisted YouTube URL to this README.
 
 ## Important implementation notes
 
